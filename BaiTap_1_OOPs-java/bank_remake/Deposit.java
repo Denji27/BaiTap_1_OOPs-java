@@ -9,6 +9,7 @@ public class Deposit extends Account{
         double nap= sc.nextDouble();
         if (nap>0){
             System.out.println("Ban vua nap thanh cong "+nap + "\nSo du tai khoan cua quy khach hien la: "+(ac.getBalance()+nap));
+            ac.setBalance(ac.getBalance()+nap);
         }
         else{
             System.out.println("So tien nap vao khong hop le! 😃 hehe");

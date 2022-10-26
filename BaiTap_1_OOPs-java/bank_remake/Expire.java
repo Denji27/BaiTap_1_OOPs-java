@@ -6,5 +6,6 @@ public class Expire extends Account{
     public void expire(Account ac){
         
         System.out.println("Ban vua nhan duoc " + ac.getBalance()*interest+" tu dao han 1 thang! 😃 hehe");
+        ac.setBalance(ac.getBalance()*interest);
     }
 }

@@ -10,6 +10,7 @@ public class Withdraw extends Account{
         if (rut+phi<ac.getBalance()){
             
             System.out.println("Ban vua rut so tien "+ rut +". Phi dich vu la "+phi +"\nSo du tai khoan cua quy khach hien la:"+(ac.getBalance()-rut-phi));
+            ac.setBalance(ac.getBalance()-rut-phi);
         }
         else{
             System.out.println("So tien rut ra khong hop le! 😃 hehe");

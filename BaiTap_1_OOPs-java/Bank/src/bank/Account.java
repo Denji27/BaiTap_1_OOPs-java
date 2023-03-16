@@ -48,7 +48,7 @@ public class Account {
             System.out.println("Ban vua nap thanh cong "+nap + "\nSo du tai khoan cua quy khach hien la: "+balance);
         }
         else{
-            System.out.println("So tien nap vao khong hop le! 😃 hehe");
+            System.out.println("So tien nap vao KHONG hop le! 😃 hehe");
         }
     }
     public void ruttien(){
